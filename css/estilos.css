@@ -252,9 +252,10 @@ body {
 
 .pnosotros {
   color: white;
-  font-size: 81px;
+  font-size: 80px;
   -webkit-text-stroke: 2px black;
-  margin-top: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 /* preguntas frecuentes */
@@ -336,7 +337,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1245px) {
   .titulo {
     display: none;
   }
@@ -351,12 +352,17 @@ body {
   }
 
   .article h2{
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
     font-size: 1.5rem;
     margin: 1rem;
-    padding-left: 3rem;
   }
 
   .article h3{
+    display: flex;
+    justify-content: center;
+    padding: 0;
     font-size: 1rem;
     margin: 1rem;
   }
@@ -374,16 +380,13 @@ body {
     margin: 0rem;
   }
 
-  .article a.buttom{
-    margin-left: 7rem;
-  }
 
   .nav_ul{
     font-size: 15px;
   }
 
   .li_servicios{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   /* servicios */
@@ -398,11 +401,12 @@ body {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 560px 400px;
+    grid-template-rows: 200px 400px 400px;
   }
 
   .imagecoach{
     margin-left: 0%;
+    width: 20rem;
   }
 
   .tituloservicio{
@@ -410,33 +414,38 @@ body {
   }
 
   .tituloservicio2{
-    font-size: 40px;
+    font-size: 30px;
     -webkit-text-stroke: 0px black;
   }
 
   .tituloservicio3{
     display: grid;
     justify-content: center;
-    font-size: 35px;
+    font-size: 25px;
     -webkit-text-stroke: 0px black;
   }
 
   .tituloservicio4{
     display: grid;
     justify-content: center;
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 2rem;
     -webkit-text-stroke: 0px black
   }
 
   .tituloservicio5{
     margin-left: 0%;
-    font-size: 35px;
+    font-size: 25px;
     -webkit-text-stroke: 0px black
   }
 
   .li_servicios{
     list-style: none;
+    margin-left: 25%;
+  }
+
+  .parrafocoach{
+    font-size: 25px;
   }
 
   .boton{
@@ -463,16 +472,115 @@ body {
      justify-content: center;
    }
 
-    
+   .nombre{
+     font-size: 20px;
+   }
+
+   .apellido{
+     font-size: 20px;
+   }
+
+   .email{
+     font-size: 20px;
+   }
+
+   .mensaje{
+     font-size: 20px;
+   }
+
+   .fcontact{
+     height: 200px;
+   }
+
+
+   form {
+    width: 500px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.911);
+  }
+
+  form label {
+    width: 80px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 350px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+  }
+
+  form input[type="submit"] {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+  }
+
+  form input[type="submit"]:hover {
+    cursor: pointer;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+  }
+
+    /* sobre nosotros */
+
+    .pnosotros{
+      font-size: 30px;
+      margin: 1rem;
+      margin-top: 13rem;
+      margin-bottom: 13rem;
+    }
   
+    /* preguntas frecuentes */
 
+    .pfrecuentes{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 225px 160px 160px 160px 180px;
+    }
 
+    .preguntastitulo{
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
 
+    .preguntas{
+      padding-top: 1rem;
+      color: #B05800;
+      -webkit-text-stroke: 1.5px black
+    }
 
+    .respuestas{
+      font-size: 20px;
+      -webkit-text-stroke: 0.2px black
+    }
 
-
-
-
+    
 }
 
 @media screen and (max-width: 745px) {
@@ -791,7 +899,6 @@ body {
   .titulocontacto {
     font-size: 20px;
     padding-bottom: 3rem;
-    padding-left: 3rem;
     -webkit-text-stroke: 0px;
   }
 
