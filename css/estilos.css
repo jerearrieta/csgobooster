@@ -372,12 +372,16 @@ body {
     width: 100%;
     padding: 3rem;
     margin: 0rem;
+
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
   .imagegc{
     width: 100%;
     padding: 3rem;
     margin: 0rem;
+
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
 
@@ -407,6 +411,8 @@ body {
   .imagecoach{
     margin-left: 0%;
     width: 20rem;
+
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
   .tituloservicio{
@@ -454,10 +460,14 @@ body {
 
   .imagecsgo{
     margin-left: 5rem;
+
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
   .imagegc1{
     margin-left: 5rem;
+
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
   .pnosotros{
@@ -553,6 +563,8 @@ body {
       margin: 1rem;
       margin-top: 13rem;
       margin-bottom: 13rem;
+
+      animation: anim 1s ease 0s 1 normal forwards;
     }
   
     /* preguntas frecuentes */
@@ -561,6 +573,22 @@ body {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 50px 225px 160px 160px 160px 180px;
+
+      animation: anim 1s ease 0s 1 normal forwards;
+    }
+
+    @keyframes anim {
+      0% {
+        opacity: 0;
+        transform: rotateX(-100deg);
+        transform-origin: top;
+      }
+    
+      100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+      }
     }
 
     .preguntastitulo{
@@ -579,6 +607,18 @@ body {
       font-size: 20px;
       -webkit-text-stroke: 0.2px black
     }
+
+    @keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 
     
 }
@@ -823,7 +863,7 @@ body {
   .li_servicios {
     list-style: none;
     font-size: 11px;
-    margin-left: 3rem;
+    margin-left: 13%;
   }
 
   .boton {
