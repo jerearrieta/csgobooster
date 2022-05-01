@@ -16,7 +16,7 @@ body {
   height: 200px;
   width: 100%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-  background-color: rgba(0, 0, 0, 0.911);
+  background-color: #212529;
 
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ body {
 
 .nav_li a {
   text-decoration: none;
-  color: #B05800;
+  color: #ffffff;
 }
 
 .section {
