@@ -814,13 +814,11 @@ textarea {
 
     .preguntas{
       padding-top: 1rem;
-      color: #B05800;
-      -webkit-text-stroke: 1.5px black
+      color: #ffffff;
     }
 
     .respuestas{
       font-size: 20px;
-      -webkit-text-stroke: 0.2px black
     }
 
     @keyframes myAnim {
@@ -979,7 +977,7 @@ textarea {
     left: 0;
     height: 100vh;
     width: 80%;
-    max-width: 300px;
+    max-width: 250px;
     z-index: 1000;
 
     transform: translateX(-100%);
