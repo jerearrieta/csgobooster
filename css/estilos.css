@@ -283,9 +283,18 @@ body {
 .pnosotros {
   color: white;
   font-size: 35px;
-  padding-bottom: 17rem;
+  padding-bottom: 3rem;
   animation: nosotros 1s ease 0s 1 normal forwards;
   margin: 5rem;
+}
+
+.m4{
+  width: 300px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* preguntas frecuentes */
