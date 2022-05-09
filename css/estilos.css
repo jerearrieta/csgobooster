@@ -174,10 +174,13 @@ body {
 
 /* servicios */
 
+.ul_servicios{
+  margin: 1rem;
+}
+
 .tituloservicio {
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 100px;
-  -webkit-text-stroke: 3px #ffffff;
   display: flex;
   justify-content: center;
   animation: myAnim 1s ease 0s 1 normal forwards;
@@ -205,10 +208,14 @@ body {
 
 .tituloservicio5 {
   color: white;
-  font-size: 70px;
-  margin-left: 30%;
+  font-size: 50px;
   margin-top: 5rem;
   animation: divservicio 1s ease 0s 1 normal forwards;
+}
+
+.containerCoach{
+  display: flex;
+  justify-content: center;
 }
 
 .parrafocoach {
@@ -223,12 +230,13 @@ body {
   display: flex;
   padding-top: 8rem;
   justify-content: space-around;
+  margin: 1rem;
   animation: divservicio 1s ease 0s 1 normal forwards;
 }
 
 .imagecsgo {
   width: 300px;
-  margin-left: 10rem;
+  margin-left: 9rem;
   margin-top: 2rem;
   animation: divservicio 1s ease 0s 1 normal forwards;
 }
@@ -241,18 +249,25 @@ body {
 }
 
 .imagecoach {
-  width: 500px;
-  margin-left: 35%;
+  width: 25%;
   margin-top: 2rem;
+  margin-bottom: 1rem;
   animation: divservicio 1s ease 0s 1 normal forwards;
 }
 
+.divconteiner{
+  display: flex;
+  justify-content: center;
+}
+
+
 .li_servicios {
+  display: flex;
   text-decoration: none;
   color: white;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 40px;
-  margin-left: 8rem;
+  margin-left: 0rem;
   margin-top: 2rem;
   animation: divservicio 1s ease 0s 1 normal forwards;
 }
@@ -268,8 +283,7 @@ body {
 .pnosotros {
   color: white;
   font-size: 35px;
-  padding-top: 8rem;
-  padding-bottom: 9rem;
+  padding-bottom: 17rem;
   animation: nosotros 1s ease 0s 1 normal forwards;
   margin: 5rem;
 }
@@ -623,9 +637,15 @@ textarea {
     grid-template-rows: 200px 400px 400px;
   }
 
+  .containerCoach{
+    display: flex;
+    justify-content: center;
+  }
+
   .imagecoach{
     margin-left: 0%;
     width: 20rem;
+    margin-top: 0rem;
 
     animation: myAnim 1s ease 0s 1 normal forwards;
   }
@@ -642,27 +662,31 @@ textarea {
   .tituloservicio3{
     display: grid;
     justify-content: center;
-    font-size: 25px;
+    font-size: 35px;
     -webkit-text-stroke: 0px black;
   }
 
   .tituloservicio4{
     display: grid;
     justify-content: center;
-    font-size: 25px;
+    font-size: 35px;
     padding-top: 2rem;
     -webkit-text-stroke: 0px black
   }
 
   .tituloservicio5{
     margin-left: 0%;
-    font-size: 25px;
+    font-size: 35px;
     -webkit-text-stroke: 0px black
   }
 
   .li_servicios{
     list-style: none;
-    margin-left: 25%;
+    display: flex;
+    margin-left: 0rem;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-top: 1rem;
   }
 
   .parrafocoach{
@@ -674,20 +698,33 @@ textarea {
   }
 
   .imagecsgo{
-    margin-left: 5rem;
-
+    margin-left: 0rem;
     animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
-  .imagegc1{
-    margin-left: 5rem;
+  .containerImageCsgo{
+    display: flex;
+    justify-content: center;
+  }
 
+  .imagegc1{
+    margin-left: 0rem;
     animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+
+  .containerImageGc{
+    display: flex;
+    justify-content: center;
   }
 
   .pnosotros{
     font-size: 35px;
     padding-top: 0rem;
+  }
+
+  .ul_servicios{
+    justify-content: space-between;
+    padding-left: 0rem;
   }
 
    /* contacto */
@@ -723,6 +760,7 @@ textarea {
     padding: 16px;
     border-radius: 10px;
     margin: auto;
+    margin-bottom: 5rem;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.911);
   }
@@ -787,7 +825,7 @@ textarea {
     .pfrecuentes{
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 50px 225px 160px 160px 160px 180px;
+      grid-template-rows: 50px 250px 185px 185px 185px 210px;
 
       animation: anim 1s ease 0s 1 normal forwards;
     }
@@ -876,7 +914,8 @@ textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4.5rem;
   }
 
   .article h2 {
@@ -1021,36 +1060,45 @@ textarea {
     padding-top: 0rem;
   }
   
-  .ul_servicios{
-    padding-left: 0rem;
-  }
-
   .tituloservicio {
     font-size: 50px;
     -webkit-text-stroke: 1px #ffffff;
   }
 
   .tituloservicio2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 1rem;
+    margin: 1rem;
     -webkit-text-stroke: 0px;
   }
 
   .tituloservicio3 {
-    font-size: 20px;
+    font-size: 30px;
     -webkit-text-stroke: 0px;
+  }
+
+  .containerTS3{
+    display: flex;
+    justify-content: center;
   }
 
   .tituloservicio4 {
-    font-size: 24px;
-    margin-top: 5rem;
+    font-size: 30px;
+    margin-top: 2rem;
     -webkit-text-stroke: 0px;
   }
 
+  .containerTS4{
+    display: flex;
+    justify-content: center;
+  }
+
   .tituloservicio5 {
-    font-size: 24px;
-    margin-top: 5rem;
-    margin-left: 20%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2rem;
     -webkit-text-stroke: 0px;
   }
 
@@ -1061,18 +1109,29 @@ textarea {
 
   .imagecoach {
     width: 150px;
-    margin-left: 30%;
+    padding-top: 2rem;
   }
 
   .imagegc1 {
     width: 150px;
-    margin-left: 100px;
+    margin-left: 0rem;
+    padding-bottom: 1rem;
+  }
+
+  .containerImageGc{
+    display: flex;
+    justify-content: center;
   }
 
   .imagecsgo {
     width: 150px;
-    height: 150px;
-    margin-left: 80px;
+    padding-bottom: 1rem;
+    margin-left: 0rem;
+  }
+
+  .containerImageCsgo{
+    display: flex;
+    justify-content: center;
   }
 
   .ul_servicios {
@@ -1081,14 +1140,16 @@ textarea {
   }
 
   .li_servicios {
+    display: flex;
     list-style: none;
-    font-size: 11px;
-    margin-left: 13%;
+    margin: 1rem;
+    width: 90%;
+    justify-content: space-between;
   }
 
   .boton {
     min-width: 100px;
-    height: 30px;
+    height: 40px;
     color: #fff;
     padding: 5px 10px;
     font-weight: bold;
@@ -1123,6 +1184,11 @@ textarea {
     color: white;
   }
 
+  .divconteiner{
+    display: flex;
+    justify-content: center;
+  }
+
   .div_coach {
     display: flex;
     flex-direction: column;
@@ -1132,9 +1198,9 @@ textarea {
   /* sobre nosotros */
 
   .pnosotros {
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 0rem;
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
     -webkit-text-stroke: 0px;
   }
 
@@ -1163,7 +1229,7 @@ textarea {
   /* contacto */
 
   .titulocontacto {
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 3rem;
     -webkit-text-stroke: 0px;
   }
@@ -1215,6 +1281,7 @@ textarea {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.911);
     padding-bottom: 5rem;
+    margin-bottom: 5rem;
   }
 
   form label {
