@@ -558,7 +558,20 @@ textarea {
   }
 
   .header {
-    justify-content: space-evenly;
+    img{
+      width: 15%;
+    }
+    h1{
+      font-size: 30px;
+      padding-right: 0rem;
+      margin: 0rem;
+    }
+    ul{
+      width: 100%;
+      gap: 0rem;
+      font-size: 15px;
+    }
+
   }
 
   .article {
@@ -594,10 +607,6 @@ textarea {
     padding: 3rem;
     margin: 0rem;
     animation: myAnim 1s ease 0s 1 normal forwards;
-  }
-
-  .nav_ul {
-    font-size: 15px;
   }
 
   .li_servicios {

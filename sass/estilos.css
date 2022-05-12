@@ -874,10 +874,18 @@ textarea {
   .titulo {
     display: none;
   }
-  .header {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .header img {
+    width: 15%;
+  }
+  .header h1 {
+    font-size: 30px;
+    padding-right: 0rem;
+    margin: 0rem;
+  }
+  .header ul {
+    width: 100%;
+    gap: 0rem;
+    font-size: 15px;
   }
   .article {
     display: -ms-grid;
@@ -920,9 +928,6 @@ textarea {
     margin: 0rem;
     -webkit-animation: myAnim 1s ease 0s 1 normal forwards;
             animation: myAnim 1s ease 0s 1 normal forwards;
-  }
-  .nav_ul {
-    font-size: 15px;
   }
   .li_servicios {
     font-size: 20px;
