@@ -148,19 +148,6 @@ body {
   animation: iniciofotos 1s ease 0s 1 normal forwards;
 }
 
-.footer {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-around;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-  background-color: rgba(0, 0, 0, 0.911);
-}
-
-.footer div {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-around;
-}
 
 .redes {
   width: 50px;
@@ -292,7 +279,7 @@ body {
   width: 300px;
 }
 
-.container{
+.containerimages{
   display: flex;
   justify-content: space-between;
 }
