@@ -3,7 +3,50 @@ header {
     width: 100%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
     background-color: #212529;
-  
     display: flex;
     align-items: center;
-  }
+
+    img {
+        width: 12%;
+    }
+
+    h1 {
+        color: rgb(255, 255, 255);
+        padding-right: 3%;
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        gap: 5rem;
+        margin: 1rem;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .fa-bars:before,
+    .fa-navicon:before {
+        display: none;
+    }
+
+    @media screen and (max-width: 790px) {
+
+        .fa-bars:before,
+        .fa-navicon:before {
+            display: block;
+            margin: 1rem;
+        }
+    
+    }
+}
