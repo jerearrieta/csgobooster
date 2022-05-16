@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/estilos.css
 * {
   padding: 0;
   margin: 0;
@@ -158,12 +159,15 @@ body {
 .divinicio{
   animation: divinicio 1s ease 0s 1 normal forwards;
 }
+=======
+@import "fondo";
+@import "reseteo";
+@import "header";
+@import "divindex";
+>>>>>>> sass:sass/estilos.scss
 
 /* servicios */
 
-.ul_servicios{
-  margin: 1rem;
-}
 
 .tituloservicio {
   color: white;
@@ -565,10 +569,6 @@ textarea {
 @media screen and (max-width: 1240px) {
   .titulo {
     display: none;
-  }
-
-  .header{
-    justify-content: space-evenly;
   }
 
   .article{
