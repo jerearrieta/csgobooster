@@ -1,0 +1,105 @@
+$colortitle: white;
+
+h2 {
+    color:$colortitle;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.tituloservicio2 {
+    color: $colortitle;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+  
+  .tituloservicio3 {
+    color: $colortitle;
+    font-size: 50px;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .tituloservicio4 {
+    color: $colortitle;
+    font-size: 50px;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .tituloservicio5 {
+    color: $colortitle;
+    font-size: 50px;
+    margin-top: 5rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .containerCoach{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parrafocoach {
+    color: $colortitle;
+    font-size: 29px;
+    padding-top: 2rem;
+    margin: 1rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .div_servicios {
+    display: flex;
+    padding-top: 8rem;
+    justify-content: space-around;
+    margin: 1rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .imagecsgo {
+    width: 300px;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .imagegc1 {
+    width: 300px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .imagecoach {
+    width: 25%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .divconteiner{
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul{
+      margin: 5rem;
+      padding-left: 0rem;
+  }
+
+  .li_servicios {
+    display: flex;
+    text-decoration: none;
+    color: $colortitle;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+  
+  .boton {
+    height: 50px;
+    width: 100px;
+    animation: divservicio 1s ease 0s 1 normal forwards;
+  }

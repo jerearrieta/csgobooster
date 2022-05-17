@@ -1,10 +1,21 @@
+@mixin centrador1 {
+    display: flex;
+    align-items: center;
+}
+
+@mixin centrador2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 header {
     height: 200px;
     width: 100%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
     background-color: #212529;
-    display: flex;
-    align-items: center;
+    @include centrador1();
 
     img {
         width: 12%;
@@ -17,11 +28,8 @@ header {
     }
 
     ul {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
+        @include centrador2();
+        font-size: 23.5px;
         gap: 5rem;
         margin: 1rem;
 
@@ -47,6 +55,6 @@ header {
             display: block;
             margin: 1rem;
         }
-    
+
     }
 }

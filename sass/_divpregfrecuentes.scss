@@ -1,0 +1,28 @@
+$colortitle: white;
+
+.preguntastitulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-left: 0%;
+    color: white;
+    font-size: 50px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.preguntas {
+    color: $colortitle;
+    font-size: 35px;
+    padding-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+
+  .respuestas {
+    color: $colortitle;
+    font-size: 25px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }

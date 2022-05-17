@@ -1,25 +1,25 @@
 $colortitle: white;
 
-article {
+@mixin centrador1 {
     display: flex;
     align-items: center;
+}
+
+article {
+    @include centrador1();
     padding-bottom: 5rem;
     padding-top: 5rem;
 
     img {
-
         width: 50%;
         margin: 1rem;
         animation: iniciofotos 1s ease 0s 1 normal forwards;
-
-        
-
     }
 
     h2 {
         color: $colortitle;
-        padding-left: 8rem;
-        font-size: 50px;
+        font-size: 40px;
+        animation: divinicio 1s ease 0s 1 normal forwards;
     }
 
     h3 {
@@ -27,6 +27,7 @@ article {
         padding-top: 1rem;
         font-size: 25px;
         padding-left: 2rem;
+        animation: divinicio 1s ease 0s 1 normal forwards;
     }
 
     a.buttom {
@@ -50,6 +51,7 @@ article {
         border: none;
         background: #343a40;
         box-shadow: 0 5px #212529;
+        animation: divinicio 1s ease 0s 1 normal forwards;
     }
 
     .buttom:hover {

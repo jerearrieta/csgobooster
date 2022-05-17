@@ -1,0 +1,82 @@
+$colortitle: white;
+$colorcontact: black;
+
+.titulocontacto {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    animation: tituloformulario 1s ease 0s 1 normal forwards;
+}
+
+.nombre {
+    color: $colorcontact;
+}
+
+.apellido {
+    color: $colorcontact;
+}
+
+.email {
+    color: $colorcontact;
+}
+
+.mensaje {
+    color: $colorcontact;
+}
+
+form {
+    width: 80%;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 5px 5px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.877);
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    animation: formulario 1s ease 0s 1 normal forwards;
+}
+
+form label {
+    width: 100%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 3px 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #000000;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #000000;
+    margin: 8px 0;
+    resize: none;
+    display: block;
+}
