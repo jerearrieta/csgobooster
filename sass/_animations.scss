@@ -1,0 +1,153 @@
+.headerbars {
+    display: none;
+  }
+  
+  .nav_item-oculto {
+    display: none;
+  }
+  
+  @keyframes myAnim {
+      0% {
+          opacity: 0;
+          transform: translateY(-250px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  @keyframes iniciofotos {
+      0% {
+          opacity: 0;
+          transform: translateX(-250px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  @keyframes divinicio {
+      0% {
+          opacity: 0;
+          transform: translateX(250px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  @keyframes divservicio {
+      0% {
+          opacity: 0;
+          transform: translateY(250px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  @keyframes nosotros {
+      0% {
+          transform: scale(0);
+      }
+  
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  @keyframes formulario {
+      0% {
+          animation-timing-function: ease-in;
+          opacity: 0;
+          transform: translateY(250px);
+      }
+  
+      38% {
+          animation-timing-function: ease-out;
+          opacity: 1;
+          transform: translateY(0);
+      }
+  
+      55% {
+          animation-timing-function: ease-in;
+          transform: translateY(65px);
+      }
+  
+      72% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  
+      81% {
+          animation-timing-function: ease-in;
+          transform: translateY(28px);
+      }
+  
+      90% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  
+      95% {
+          animation-timing-function: ease-in;
+          transform: translateY(8px);
+      }
+  
+      100% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  }
+  
+  @keyframes tituloformulario {
+      0% {
+          animation-timing-function: ease-in;
+          opacity: 0;
+          transform: translateY(-250px);
+      }
+  
+      38% {
+          animation-timing-function: ease-out;
+          opacity: 1;
+          transform: translateY(0);
+      }
+  
+      55% {
+          animation-timing-function: ease-in;
+          transform: translateY(-65px);
+      }
+  
+      72% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  
+      81% {
+          animation-timing-function: ease-in;
+          transform: translateY(-28px);
+      }
+  
+      90% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  
+      95% {
+          animation-timing-function: ease-in;
+          transform: translateY(-8px);
+      }
+  
+      100% {
+          animation-timing-function: ease-out;
+          transform: translateY(0);
+      }
+  }
