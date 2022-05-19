@@ -249,11 +249,19 @@
       }
     
       /* preguntas frecuentes */
+      
+      .preguntas{
+        margin: 0rem 6rem 0rem 6rem;
+      }
+
+      .respuestas{
+        margin: 1rem 6rem 1rem 6rem;
+      }
   
       .pfrecuentes{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 250px 185px 185px 185px 210px;
+        grid-template-rows: 70px 270px 200px 180px 200px 210px;
   
         animation: anim 1s ease 0s 1 normal forwards;
       }
