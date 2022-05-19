@@ -164,18 +164,26 @@
   
      .nombre{
        font-size: 20px;
+       color: white;
+       margin-right: 10px;
      }
   
      .apellido{
        font-size: 20px;
+       color: white;
+       margin-right: 10px;
      }
   
      .email{
        font-size: 20px;
+       color: white;
+       margin-right: 10px;
      }
   
      .mensaje{
        font-size: 20px;
+       color: white;
+       margin-right: 10px;
      }
   
      .fcontact{
@@ -189,8 +197,8 @@
       border-radius: 10px;
       margin: auto;
       margin-bottom: 5rem;
-      box-shadow: 0 5px 5px rgb(0, 0, 0);
-      background-color: rgba(255, 255, 255, 0.877);
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.904);
+      background-color: rgba(0, 0, 0, 0.877);
     }
   
     form label {
@@ -203,9 +211,9 @@
     form input[type="email"] {
       width: 350px;
       padding: 3px 10px;
-      border: 1px solid #000000;
+      border: 1px solid #ffffff;
       border-radius: 3px;
-      background-color: #000000;
+      background-color: #ffffff;
       margin: 8px 0;
       display: inline-block;
     }
@@ -214,11 +222,11 @@
       width: 100%;
       font-size: 20px;
       margin-top: 32px;
-      border: 1px solid #000;
+      border: 1px solid rgb(255, 255, 255);
       border-radius: 5px;
       display: block;
-      color: #fff;
-      background-color: #000;
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
     }
   
     form input[type="submit"]:hover {
@@ -228,9 +236,9 @@
     textarea {
       width: 100%;
       height: 100px;
-      border: 1px solid #000000;
+      border: 1px solid #ffffff;
       border-radius: 3px;
-      background-color: #000000;
+      background-color: #ffffff;
       margin: 8px 0;
       /*resize: vertical | horizontal | none | both*/
       resize: none;
@@ -247,6 +255,10 @@
   
         animation: anim 1s ease 0s 1 normal forwards;
       }
+
+      .containerimages{
+        display: none;
+    }
     
       /* preguntas frecuentes */
       
