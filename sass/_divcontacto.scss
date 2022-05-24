@@ -1,6 +1,3 @@
-$colortitle: white;
-$colorcontact: black;
-
 .titulocontacto {
     display: flex;
     justify-content: center;
@@ -12,19 +9,19 @@ $colorcontact: black;
 }
 
 .nombre {
-    color: $colorcontact;
+    color: $colortitle;
 }
 
 .apellido {
-    color: $colorcontact;
+    color: $colortitle;
 }
 
 .email {
-    color: $colorcontact;
+    color: $colortitle;
 }
 
 .mensaje {
-    color: $colorcontact;
+    color: $colortitle;
 }
 
 form {

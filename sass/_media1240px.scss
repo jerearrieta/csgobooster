@@ -84,14 +84,16 @@
   
     .tituloservicio2{
       font-size: 30px;
-      -webkit-text-stroke: 0px black;
     }
   
+    .containerTS3{
+      display: flex;
+      justify-content: center;
+    }
+
     .tituloservicio3{
-      display: grid;
       justify-content: center;
       font-size: 35px;
-      -webkit-text-stroke: 0px black;
     }
   
     .tituloservicio4{

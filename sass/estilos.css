@@ -148,17 +148,40 @@ article .buttom:active {
   top: 5px;
 }
 
-h2 {
-  color: white;
-  font-size: 100px;
+.titulo2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.titulo4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  color: white;
+  font-size: 100px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-animation: myAnim 1s ease 0s 1 normal forwards;
           animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.spanleft {
+  color: #1B2A47;
+}
+
+.spanright {
+  color: #FDA300;
+}
+
+.tituloservicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .tituloservicio2 {
@@ -280,11 +303,16 @@ ul {
           animation: divservicio 1s ease 0s 1 normal forwards;
 }
 
-.boton {
+.boton, .boton-gc {
   height: 50px;
   width: 100px;
   -webkit-animation: divservicio 1s ease 0s 1 normal forwards;
           animation: divservicio 1s ease 0s 1 normal forwards;
+}
+
+.boton-gc {
+  -webkit-animation: extendbuttom 1s ease 0s 1 normal forwards;
+          animation: extendbuttom 1s ease 0s 1 normal forwards;
 }
 
 p {
@@ -363,19 +391,19 @@ p {
 }
 
 .nombre {
-  color: black;
+  color: white;
 }
 
 .apellido {
-  color: black;
+  color: white;
 }
 
 .email {
-  color: black;
+  color: white;
 }
 
 .mensaje {
-  color: black;
+  color: white;
 }
 
 form {
@@ -781,6 +809,32 @@ textarea {
   }
 }
 
+@-webkit-keyframes extendbuttom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-250px) rotate(-200deg);
+            transform: translateX(-250px) rotate(-200deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes extendbuttom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-250px) rotate(-200deg);
+            transform: translateX(-250px) rotate(-200deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+}
+
 @media screen and (max-width: 1240px) {
   .titulo {
     display: none;
@@ -872,16 +926,20 @@ textarea {
   }
   .tituloservicio2 {
     font-size: 30px;
-    -webkit-text-stroke: 0px black;
+  }
+  .containerTS3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .tituloservicio3 {
-    display: -ms-grid;
-    display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 35px;
-    -webkit-text-stroke: 0px black;
   }
   .tituloservicio4 {
     display: -ms-grid;
@@ -913,7 +971,7 @@ textarea {
   .parrafocoach {
     font-size: 25px;
   }
-  .boton {
+  .boton, .boton-gc {
     height: 30px;
   }
   .imagecsgo {
@@ -1166,19 +1224,19 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
     padding-bottom: 2rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 5rem;
   }
   .article h2 {
     padding-top: 3rem;
@@ -1421,7 +1479,7 @@ textarea {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .boton {
+  .boton, .boton-gc {
     min-width: 100px;
     height: 40px;
     color: #fff;
@@ -1439,12 +1497,12 @@ textarea {
     -webkit-box-shadow: 0 5px #212529;
             box-shadow: 0 5px #212529;
   }
-  .boton:hover {
+  .boton:hover, .boton-gc:hover {
     -webkit-box-shadow: 0 3px #212529;
             box-shadow: 0 3px #212529;
     top: 1px;
   }
-  .boton:active {
+  .boton:active, .boton-gc:active {
     -webkit-box-shadow: 0 0 #212529;
             box-shadow: 0 0 #212529;
     top: 5px;

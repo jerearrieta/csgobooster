@@ -1,11 +1,20 @@
-$colortitle: white;
-
 h2 {
     color:$colortitle;
     font-size: 100px;
-    display: flex;
     justify-content: center;
     animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.spanleft{
+  color: map-get($map: $colorspan, $key:colorleft );
+}
+
+.spanright{
+  color: map-get($map: $colorspan, $key:colorright );
+}
+
+.tituloservicio{
+  display: flex;
 }
 
 .tituloservicio2 {
@@ -102,4 +111,9 @@ h2 {
     height: 50px;
     width: 100px;
     animation: divservicio 1s ease 0s 1 normal forwards;
+  }
+
+  .boton-gc{
+    @extend .boton;
+    animation: extendbuttom 1s ease 0s 1 normal forwards;
   }

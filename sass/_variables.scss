@@ -1,0 +1,19 @@
+$colortitle: white;
+$colorcontact: black;
+
+$colorspan:(
+    colorleft: #1B2A47,
+    colorright: #FDA300
+);
+
+@mixin centrador1 {
+    display: flex;
+    align-items: center;
+}
+
+@mixin centrador2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
